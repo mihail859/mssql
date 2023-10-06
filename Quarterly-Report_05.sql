@@ -1,8 +1,0 @@
-SELECT TOP (1000) [InvoiceId]
-      ,[InvoiceDate]
-      ,[Total]
-	  ,DATEPART(QUARTER, InvoiceDate) AS [Quarter]
-	  ,DATEPART(MONTH, InvoiceDate) AS [Month]
-	  ,DATEPART(YEAR, InvoiceDate) AS [Year]
-	  ,DATEPART(DAY, InvoiceDate) AS [Day]
-  FROM [Demo].[dbo].[Invoices]
