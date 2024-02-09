@@ -1,1 +1,2 @@
 # MSSQL EXERCISES FROM SOFTUNI
+mysql_exam
